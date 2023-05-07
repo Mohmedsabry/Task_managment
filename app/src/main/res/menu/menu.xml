@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/baseline_tag_faces_24"
+        android:title="do you want relax?"
+        app:showAsAction="withText" />
+</menu>

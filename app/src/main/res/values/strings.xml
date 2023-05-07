@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <string name="btn_Reg">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>

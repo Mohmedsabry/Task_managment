@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Relax">
+
+    <Button
+        android:id="@+id/relax_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/relax_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Stop"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:cornerRadius="25dp" />
+</LinearLayout>
