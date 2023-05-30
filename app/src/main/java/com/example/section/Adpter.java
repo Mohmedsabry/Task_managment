@@ -116,6 +116,7 @@ public class Adpter extends RecyclerView.Adapter<Adpter.Holder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // position
                 listener.Onclick(arrayList.get(holder.getAdapterPosition()).getId(),Expired);
             }
         });

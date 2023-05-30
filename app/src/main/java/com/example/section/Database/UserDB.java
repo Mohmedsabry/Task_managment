@@ -17,6 +17,8 @@ public class UserDB extends SQLiteAssetHelper {
     public static final String TABEL ="user";
     public static final int VERSION = 1;
 
+
+
     public UserDB(Context context) {
         super(context, NAME, null,null, VERSION);
     }

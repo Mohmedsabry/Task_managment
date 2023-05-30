@@ -6,5 +6,5 @@
         android:id="@+id/menu"
         android:icon="@drawable/baseline_tag_faces_24"
         android:title="do you want relax?"
-        app:showAsAction="withText" />
+        app:showAsAction="never" />
 </menu>
